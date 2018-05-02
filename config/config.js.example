@@ -1,0 +1,15 @@
+module.exports = {
+  app: {
+    port: '8001',
+    nonSecurePort: '8000',
+    sessionCookieName: 'sessionid'
+  },
+  database: {
+    mongo: {
+      url: 'mongodb://mongodbuser:mongodbpassword@127.0.0.1:27017/museum'
+    }
+  },
+  environment: {
+    env: 'development'
+  }
+}
